@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+a,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+button,input{
+    background: none;
+    outline: none;
+    border: none;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./Assets/fonts/Poppins-Regular.ttf);
+}
+
+.hero__title>h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(26, 26, 26, 1);
+}
+
+.hero__container{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero__profile-settings{
+    display: flex;
+    gap: 870px;
+}
+
+
+.hero__profile-settings-title{
+    display: flex;
+    gap: 19px;
+    margin-left: 40px;
+}
+
+
+.hero__profile-settings-title>a>p{
+    width: 77px;
+    height: 77px;
+    border: 2px solid rgba(29, 104, 249, 1);
+    color: rgba(29, 104, 249, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-25px);
+    font-size: 30px;
+    font-weight: 700;
+    background: #fff;
+}
+
+.hero__profile-settings-title-me>p{
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero__profile-settings-title-me>a{
+    color: rgba(185, 185, 185, 1);
+    font-size: 14px;
+}
+
+.hero__profile-settings-button>button{
+    padding: 14px 37px;
+    background: rgba(31, 106, 250, 1);
+    border-radius: 28px;
+}
